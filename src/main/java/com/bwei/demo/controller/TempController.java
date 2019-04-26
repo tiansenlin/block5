@@ -32,11 +32,11 @@ public class TempController {
 //        JSONObject mempoolInfo = bitcoinApi.getMempoolInfo();
 //        JSONObject mempoolContents = bitcoinApi.getMempoolContents();
 //        String blockHashByHeight = bitcoinJsonRpcClient.getBlockHashByHeight(1489445);
-//        String address = "mwt9LmdatUcksGQ8eEbKbbPnczUmTq4G9h";
-//        Double balanceAmount = bitcoinJsonRpcClient.getBalance(address);
-        String txid = "e70822bf60e7b7c4f6eb5ca4c1f19e8bcf7c10f5f6981a5f205ef22c8a43abe6";
-//        Integer n = 0;
-//        JSONObject utxo = bitcoinApi.getUTXO(txid, n);
-        JSONObject rawTransaxtion = bitcoinJsonRpcClient.getRawTransaxtion(txid);
+        String address = "mwt9LmdatUcksGQ8eEbKbbPnczUmTq4G9h";
+        Double balanceAmount = bitcoinJsonRpcClient.getBalance(address);
+//        String txid = "e70822bf60e7b7c4f6eb5ca4c1f19e8bcf7c10f5f6981a5f205ef22c8a43abe6";
+//       Integer n = 0;
+//       JSONObject utxo = bitcoinApi.getUTXO(txid, n);
+//        JSONObject rawTransaxtion = bitcoinJsonRpcClient.getRawTransaxtion(txid);
     }
 }

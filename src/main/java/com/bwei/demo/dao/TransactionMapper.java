@@ -5,7 +5,7 @@ import com.bwei.demo.po.Transaction;
 public interface TransactionMapper {
     int deleteByPrimaryKey(String txid);
 
-    int insert(Transaction record);
+  
 
     int insertSelective(Transaction record);
 
@@ -16,4 +16,6 @@ public interface TransactionMapper {
     int updateByPrimaryKey(Transaction record);
 
     int truncate();
+
+    int insert(Transaction transaction);
 }
